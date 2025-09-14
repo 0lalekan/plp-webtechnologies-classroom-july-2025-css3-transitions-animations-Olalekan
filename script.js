@@ -1,8 +1,3 @@
-// Function to format message (demonstrates parameters + return)
-function createMessage(name) {
-  return `Hello, ${name}! Welcome to the animation demo 🎬`;
-}
-
 // Function showing local vs global scope
 let globalVar = "I am global!";
 function scopeDemo() {
@@ -20,7 +15,6 @@ const resetBtn = document.getElementById("resetBtn");
 // Function to add animation
 function animateBox() {
   box.classList.add("move");
-  alert(createMessage("Student")); // Reuse function here
 }
 
 // Function to reset animation
